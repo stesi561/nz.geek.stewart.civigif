@@ -2,7 +2,7 @@
 
 Sandbox extension - WIP - exploring generating a gif of (currently)
 contribution data that could be included in an email campaign as a
-up-to-date donor role.
+up-to-date donor roll.
 
 
 
