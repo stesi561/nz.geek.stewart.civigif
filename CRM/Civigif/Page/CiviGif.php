@@ -7,20 +7,6 @@ class CRM_Civigif_Page_CiviGif extends CRM_Core_Page {
   public function run() {
 
     CRM_Utils_System::setTitle(E::ts('CiviGif - Testing'));
-    /*$lines = [
-      ['one',1],
-      ['two',2],
-      ['three',3],
-      ['four',4],
-      ['five',5],
-      ['six',6],
-      ['seven',7],
-      ['eight',8],
-      ['nine',9],
-      ['ten',10],
-    ];
-    $format_str = 'Test %s ->  %d';
-    */
     
     $result = civicrm_api3('Contribution', 'get', array(
       'sequential' => 1,
