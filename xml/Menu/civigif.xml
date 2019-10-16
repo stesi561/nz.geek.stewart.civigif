@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/civigif</path>
+    <page_callback>CRM_Civigif_Page_CiviGif</page_callback>
+    <title>CiviGif</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>
