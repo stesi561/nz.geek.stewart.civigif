@@ -1,14 +1,16 @@
 # nz.geek.stewart.civigif
 
-![Screenshot](/images/screenshot.png)
+Sandbox extension - WIP - exploring generating a gif of (currently)
+contribution data that could be included in an email campaign as a
+up-to-date donor role.
 
-(*FIXME: In one or two paragraphs, describe what the extension does and why one would download it. *)
+
 
 The extension is licensed under [AGPL-3.0](LICENSE.txt).
 
 ## Requirements
 
-* PHP v5.4+
+* PHP v7.0+
 * CiviCRM (*FIXME: Version number*)
 
 ## Installation (Web UI)
