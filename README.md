@@ -5,6 +5,11 @@ contribution data that could be included in an email campaign as a
 up-to-date donor roll.
 
 
+Todo:
+
+* Possibly better to generate the image once every cron run rather on page load?
+* Need options for filtering by campaign etc - and to set this via a gui - and to generate new images for each email.
+
 
 The extension is licensed under [AGPL-3.0](LICENSE.txt).
 
