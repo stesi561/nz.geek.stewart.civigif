@@ -191,7 +191,9 @@ class CRM_Civigif_Page_CiviGif extends CRM_Core_Page {
     header("Content-Type: image/gif");
     header("Content-Length: " . filesize($image_path));
     fpassthru($fp);
-    exit;
+    fclose($fp);
+    unlink($image_path);
+    exit(0); // There is probably a nicer way of doing this?
   }
     
 
